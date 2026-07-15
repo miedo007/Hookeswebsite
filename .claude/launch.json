@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hooked-site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-I",
+        "-c",
+        "import os, functools, http.server; port = int(os.environ.get('PORT', '8742')); handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory='/private/tmp/claude-501/-Users-mehdi-Documents-Websites/60619f07-873d-4ef1-8db6-2edea1ae19db/scratchpad/site'); http.server.ThreadingHTTPServer(('127.0.0.1', port), handler).serve_forever()"
+      ],
+      "port": 8742,
+      "autoPort": true
+    }
+  ]
+}
