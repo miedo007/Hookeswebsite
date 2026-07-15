@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hookedcrochet.app/sitemap.xml
+Sitemap: https://hookedcrochetapp.com/sitemap.xml
